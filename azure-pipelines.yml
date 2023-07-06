@@ -1,0 +1,5 @@
+pool: Default
+jobs:
+- job: sast_scan
+  steps:
+  - script: printenv
